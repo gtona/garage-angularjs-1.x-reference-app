@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node server",
-    "dev": "node_modules/.bin/gulp",
-    "dist": "node_modules/.bin/gulp dist",
-    "lint": "node_modules/.bin/gulp lint",
-    "test": "node_modules/karma/bin/karma start karma.conf.dev.js",
+    "dev": "gulp",
+    "dist": "gulp dist",
+    "lint": "gulp lint",
+    "test": "karma start karma.conf.dev.js",
     "test:remote": "mkdir -p generated && node_modules/karma/bin/karma start"
   },
   "engines": {
@@ -33,6 +33,7 @@
     "gulp-todoist": "0.0.2",
     "jeet": "6.1.2",
     "jquery": "2.1.4",
+    "json-server": "0.8.9",
     "lodash": "3.10.0",
     "node-libs-browser": "0.5.3",
     "normalize.css": "3.0.3",
