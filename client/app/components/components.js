@@ -1,6 +1,6 @@
 import angular from 'angular';
-import {tabs} from './tabs/tabs';
+import {home} from './home/home';
 
 export const components = angular.module('components', [
-  tabs.name
+  home.name
 ]);

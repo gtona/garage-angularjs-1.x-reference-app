@@ -1,0 +1,49 @@
+<md-content class = "home md-padding"
+    layout = "row"
+    layout-wrap = ""
+    layout-align = "center"
+    layout-xs = "column"
+    ng-cloak>
+  <div flex = "50" flex-xs = "100" layout = "column">
+    <md-card>
+      <md-card-title>
+        <md-card-title-text>
+          <span class = "home-title1 md-display-2">Hello World</span>
+        </md-card-title-text>
+      </md-card-title>
+
+      <md-card-content class = "home-section1" flex layout-padding>
+        <md-list class="md-headline">
+          <md-list-item class="md-2-line">
+            <md-icon class = "material-icons">lens</md-icon>
+            <p>
+              good morning
+            </p>
+          </md-list-item>
+          <md-list-item class="md-2-line">
+            <md-icon class = "material-icons">lens</md-icon>
+            <p>
+              good afternoon
+            </p>
+          </md-list-item>
+          <md-list-item class="md-2-line">
+            <md-icon class = "material-icons">lens</md-icon>
+            <p>
+              good night
+            </p>
+          </md-list-item>
+        </md-list>
+      </md-card-content>
+
+      <md-card-footer>
+        <md-card-actions layout = "row" layout-align = "end center">
+          <md-button class = "md-icon-button"
+              aria-label = "Favorite"
+              ng-click = "greet()">
+            <md-icon class = "material-icons">ring_volume</md-icon>
+          </md-button>
+        </md-card-actions>
+      </md-card-footer>
+    </md-card>
+  </div>
+</md-content>
